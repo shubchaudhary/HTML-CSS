@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Units, Specificity, !important & Math Functions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Units, Specificity, !important & Math Functions</h1>
+        <h2>Examples</h2>
+
+        <h3>Units Example</h3>
+        <div class="units-example">
+            <div class="box box-px">Padding in pixels (20px)</div>
+            <div class="box box-em">Padding in em units (2em)</div>
+            <div class="box box-rem">Padding in rem units (2rem)</div>
+            <div class="box box-percent">Padding in percentage (10%)</div>
+        </div>
+
+        <h3>Specificity Example</h3>
+        <div class="specificity-example">
+            <div class="example-container">
+                <p class="text-primary">This text is affected by the lowest specificity rule.</p>
+                <p class="text-secondary">This text is affected by the middle specificity rule.</p>
+                <p class="text-tertiary">This text is affected by the highest specificity rule.</p>
+            </div>
+        </div>
+
+        <h3>!important Example</h3>
+        <div class="important-example">
+            <div class="important-box">This box has red text color with !important.</div>
+        </div>
+
+        <h3>Math Functions Example</h3>
+        <div class="math-functions-example">
+            <div class="math-box">Width: max(50%, 30px);</div>
+            <div class="math-box">Height: min(50%, 3000px);</div>
+        </div>
+    </div>
+</body>
+</html>

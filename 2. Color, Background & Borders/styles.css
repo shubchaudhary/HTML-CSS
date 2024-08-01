@@ -1,0 +1,56 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Color Box */
+.color-box {
+    color: #ffffff; /* Text color */
+    background-color: #007bff; /* Background color */
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #0056b3; /* Border color and width */
+    text-align: center;
+}
+
+/* Background Box */
+.background-box {
+    background-image: url('https://i.natgeofe.com/n/726708f7-f79d-47a5-ba03-711449823607/01-balance-of-nature.jpg'); /* Background image */
+    background-size: cover; /* Cover the element's area */
+    color: #ffffff; /* Text color */
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Border Box */
+.border-box {
+    color: #333333; /* Text color */
+    background-color: #f0f0f0; /* Background color */
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 5px dashed #333333; /* Border style, width, and color */
+    text-align: center;
+}
+
+/* Combined Box */
+.combined-box {
+    color: #ffffff; /* Text color */
+    background-color: #28a745; /* Background color */
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 3px solid #155724; /* Border style, width, and color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    text-align: center;
+}

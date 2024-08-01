@@ -1,0 +1,53 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Common Styles */
+div {
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Text Example */
+.text-example {
+    background-color: #007bff;
+    border: 2px solid #0056b3;
+    text-decoration:line-through;
+    color: lightgray;
+}
+
+/* Font Example */
+.font-example {
+    background-color: #28a745;
+    border: 2px solid #1e7e34;
+    font-family: 'Pacifico', cursive; /* Custom font example */
+    font-weight: 400;
+}
+
+/* Icon Example */
+.icon-example {
+    background-color: #dc3545;
+    border: 2px solid #c82333;
+}
+
+/* Icon styles */
+.icon-example i {
+    margin: 0 10px;
+    color: #ffffff;
+}

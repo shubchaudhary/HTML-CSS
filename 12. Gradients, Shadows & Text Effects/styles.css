@@ -1,0 +1,131 @@
+/* Basic reset for body and html */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px; /* Maximum width of the container */
+    margin: 0 auto; /* Center container horizontally */
+    padding: 20px;
+    position: relative; /* Position context for children */
+}
+
+/* Styling for headings */
+h1, h2, h3 {
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #666;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Gradient Example */
+.gradient-example {
+    display: flex;
+    gap: 10px;
+}
+
+.gradient-box {
+    width: 200px;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.gradient-linear {
+    background: linear-gradient(to left, #ff7e5f, #feb47b);
+}
+
+.gradient-radial {
+    background: radial-gradient(circle, #00d2ff, #3a7bd5);
+}
+
+/* Shadow Example */
+.shadow-example {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.shadow-box {
+    width: 200px;
+    height: 100px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+    color: #333;
+}
+
+.shadow-text {
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.shadow-box {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Text Effects */
+.text-effect-example {
+    margin-top: 20px;
+}
+
+.text-effect {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+/* Text Overflow */
+.text-overflow-example {
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 1px solid #ddd;
+}
+
+/* Word Wrap */
+.word-wrap-example {
+    width: 180px;
+    word-wrap: normal; /* Allows long words to wrap onto the next line */
+}
+
+/* Word Break */
+.word-break-example {
+    width: 250px;
+    word-break: break-all; /* Breaks words at arbitrary points if necessary */
+}
+
+/* Writing Mode */
+.writing-mode-example {
+    width: 50px;
+    height: 200px;
+    writing-mode: vertical-rl; /* Displays text vertically */
+    text-orientation: mixed;
+    background-color: #e0e0e0;
+}

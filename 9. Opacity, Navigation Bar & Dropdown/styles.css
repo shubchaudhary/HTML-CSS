@@ -1,0 +1,141 @@
+/* Basic reset for body and html */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px; /* Maximum width of the container */
+    margin: 0 auto; /* Center container horizontally */
+    padding: 20px;
+    position: relative; /* Position context for children */
+}
+
+/* Styling for headings */
+h1, h2, h3 {
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #666;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Opacity Example */
+.opacity-example {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.opaque-box, .semi-opaque-box, .transparent-box {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.opaque-box {
+    background-color: #3498db;
+    color: white;
+    opacity: 1; /* Fully opaque */
+}
+
+.semi-opaque-box {
+    background-color: #3498db;
+    color: white;
+    opacity: 0.5; /* Semi-transparent */
+}
+
+.transparent-box {
+    background-color: #3498db;
+    color: white;
+    opacity: 0; /* Fully transparent */
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+/* Dropdown Menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropdown-button {
+    background-color: #2980b9;
+}

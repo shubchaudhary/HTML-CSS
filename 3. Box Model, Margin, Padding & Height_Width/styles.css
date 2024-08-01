@@ -1,0 +1,57 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Common Box Styles */
+.box {
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Box Model Example */
+.box.model {
+    background-color: #007bff;
+    border: 2px solid #0056b3;
+    padding: 20px; /* Padding inside the box */
+    margin: 20px; /* Margin outside the box */
+}
+
+/* Box with Margin */
+.box.margin {
+    background-color: #28a745;
+    border: 2px solid #1e7e34;
+    padding: 10px;
+    margin: 40px; /* Larger margin outside the box */
+}
+
+/* Box with Padding */
+.box.padding {
+    background-color: #ffc107;
+    border: 2px solid #e0a800;
+    padding: 40px; /* Larger padding inside the box */
+    margin: 20px;
+}
+
+/* Box with Height and Width */
+.box.size {
+    background-color: #dc3545;
+    border: 2px solid #c82333;
+    height: 150px; /* Fixed height */
+    width: 300px; /* Fixed width */
+    padding: 20px;
+    margin: 20px;
+}

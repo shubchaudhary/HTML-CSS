@@ -1,0 +1,24 @@
+// _mixins.scss
+// Mixin for button styles
+@mixin button-style($bg-color, $text-color) {
+    background-color: $bg-color;
+    color: $text-color;
+    border: none;
+    padding: $padding;
+    border-radius: $border-radius;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    &:hover {
+      background-color: darken($bg-color, 10%);
+    }
+  }
+  
+  // Mixin for card styles
+  @mixin card-style($bg-color) {
+    background-color: $bg-color;
+    color: white;
+    border-radius: $border-radius;
+    padding: $padding;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

@@ -1,0 +1,74 @@
+/* Basic reset for body and html */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px; /* Maximum width of the container */
+    margin: 0 auto; /* Center container horizontally */
+    padding: 20px;
+    position: relative; /* Position context for children */
+}
+
+/* Styling for headings */
+h1, h2, h3 {
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #666;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Flexbox Example */
+.flex-example {
+    margin-top: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    gap: 10px; /* Space between items */
+}
+
+.flex-item {
+    flex: 1 1 100px; /* Grow, shrink, and initial width */
+    background-color: #ff7e5f;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Grid Example */
+.grid-example {
+    margin-top: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Responsive grid layout */
+    gap: 10px; /* Space between items */
+}
+
+.grid-item {
+    background-color: #3a7bd5;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}

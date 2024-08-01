@@ -1,0 +1,50 @@
+/* Reset some default styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position:relative; /* Positioning context for the children */
+    max-width: 800px; /* Maximum width of the container */
+    max-height: 800px;
+    margin: 0 auto; /* Center container horizontally */
+    border: 2px solid #333;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Box 1 */
+.box1 {
+    display: block; /* Default display for div */
+    width: 100%; /* Full width of the container */
+    padding: 10px;
+    background-color: #ff9999;
+    position: relative;
+    z-index: 1; /* Positioned above box2 and box3 */
+    margin-bottom: 10px;
+}
+
+/* Box 2 */
+.box2 {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #99ff99;
+    position: absolute; /* Positioned absolutely within the container */
+    top: 20px; /* 20px from the top of the container */
+    left: 0;
+    z-index: 0; /* Positioned below box1 */
+}
+
+/* Box 3 */
+.box3 {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #9999ff;
+    position: relative;
+    z-index: 2; /* Positioned above box1 */
+    margin-top: 20px;
+}

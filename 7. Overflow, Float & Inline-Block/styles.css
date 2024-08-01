@@ -1,0 +1,86 @@
+/* Basic reset for body and html */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px; /* Maximum width of the container */
+    margin: 0 auto; /* Center container horizontally */
+    padding: 20px;
+    position: relative; /* Position context for children */
+}
+
+/* Styling for headings */
+h1, h2, h3 {
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #666;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Overflow Example */
+.overflow-example {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border: 1px solid #ddd;
+    max-width: 100%;
+    height: 40px;
+    overflow: auto; /* Handles overflow */
+}
+
+/* Float Example */
+.float-example {
+    overflow: hidden; /* Clearfix to handle floated elements */
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+.float-box {
+    width: 45%;
+    padding: 10px;
+    background-color: #e0e0e0;
+    margin: 5px;
+    border: 1px solid #ccc;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+/* Inline-Block Example */
+.inline-block-example {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.inline-box {
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    background-color: #e0e0e0;
+    margin: 10px 1%;
+    border: 1px solid #ccc;
+}

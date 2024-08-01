@@ -1,0 +1,58 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Element Selector */
+p {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Class Selector */
+.highlight {
+    background-color: #ffff00;
+    padding: 5px;
+}
+
+/* ID Selector */
+#unique {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+/* Attribute Selector */
+a[href^="https"] {
+    color: green;
+}
+
+/* Pseudo-class Selector */
+a:hover {
+    color: #ff6600;
+}
+
+/* Pseudo-element Selector */
+p::first-line {
+    font-weight: bold;
+}
+
+/* Grouping Selectors */
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* Descendant Selector */
+.container p {
+    color: #666;
+}

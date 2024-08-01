@@ -1,0 +1,127 @@
+/* Basic reset for body and html */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px; /* Maximum width of the container */
+    margin: 0 auto; /* Center container horizontally */
+    padding: 20px;
+    position: relative; /* Position context for children */
+}
+
+/* Styling for headings */
+h1, h2, h3 {
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #666;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* 2D Transforms Example */
+.transforms-2d-example {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.transform-box {
+    width: 100px;
+    height: 100px;
+    background-color: #ff7e5f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+.transform-rotate:hover {
+    transform: rotate(45deg);
+}
+
+.transform-scale:hover {
+    transform: scale(1.5);
+}
+
+.transform-translate:hover {
+    transform: translate(20px, 20px);
+}
+
+.transform-skew:hover {
+    transform: skew(20deg, 10deg);
+}
+
+/* 3D Transforms Example */
+.transforms-3d-example {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    perspective: 1000px; /* Define a perspective for 3D space */
+}
+
+.transform-box-3d {
+    width: 100px;
+    height: 100px;
+    background-color: #3a7bd5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    transform-style: preserve-3d; /* Preserve 3D transformations */
+    transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+.transform-rotate3d:hover {
+    transform: rotateX(45deg) rotateY(45deg);
+}
+
+.transform-scale3d:hover {
+    transform: scale3d(1.2, 1.2, 1.2);
+}
+
+/* Transitions Example */
+.transitions-example {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.transition-box {
+    width: 150px;
+    height: 100px;
+    background-color: #34a853;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 3s ease, transform 3s ease; /* Smooth transitions for color and transform */
+}
+
+.transition-box:hover {
+    background-color: #fbbc05;
+    transform: scale(1.2);
+}
