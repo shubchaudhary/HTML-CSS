@@ -8,8 +8,6 @@ This repository contains a collection of HTML and CSS demo files. These demos ar
 
 - `index.html`: The main HTML file demonstrating the structure of the webpage.
 - `styles.css`: The CSS file containing styles for the HTML elements.
-- `images/`: A folder containing images used in the demo (if applicable).
-- `scripts/`: A folder for JavaScript files (if applicable).
 
 ## How to Use
 
